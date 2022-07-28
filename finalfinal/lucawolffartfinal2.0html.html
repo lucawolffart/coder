@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(36, 35, 35);
+            color: white;
+        }
+        .menu > ul{
+          display: flex;
+          
+        }
+        .menu > ul > li > a{
+          text-decoration: none;
+          color: white;
+        }
+        .menu, ul, li{
+          text-decoration: none;
+          background-color: hwb(208 19% 61% / 0.753);
+          list-style: none;
+          padding: 10px 12px;
+          display: block;
+        }
+        .menu li ul{
+          display: none;
+          position: absolute;
+          min-width: 140px;
+        }
+        .menu li:hover > ul{
+          display: block;
+        }
+        .menu li ul li a{
+          position: relative;
+          text-decoration: none;
+          color: white;
+        }
+        .btn1{
+          display: inline-block;
+          position: relative;
+          float: right;
+        }
+        .cards{
+            text-align: center;
+        }
+        .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8{
+          display: inline-block;
+          padding: 10px;
+          margin: 10px;
+          color: wheat;
+        }
+        img{
+          height: 250px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+          <h1>MAXkiosco</h1>
+          <li><a href="#">descuentos</a></li>
+          <li><a href="#">promociones</a></li>
+          <li><a href="#">prodcutos</a>
+            <ul>
+              <li><a href="#">gaseosas</a></li>
+              <li><a href="#">golosinas</a></li>
+              <li><a href="#">frutas</a></li>
+              <li><a href="#">verduras</a></li>
+          </li>
+        </ul>
+      </nav>
+      <div id="boo" class="btn1">
+        <button type="button" id="btn2" class="btn btn-primary btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+        </svg></button>
+      </div>
+    <nav>
+      <nav class="cards">
+        <div class="card1">
+          <a href="#" class="img1"><img src="https://www.cocacola.es/content/dam/one/es/es2/coca-cola/products/productos/dic-2021/CC_Origal.jpg" alt=""></a>
+          <h3 class="h31"></h3>
+          <p class="p1"></p>
+        </div>
+        <div class="card2">
+          <a href="#" class="img2"><img src="https://thumbs.dreamstime.com/b/pepsi-puede-en-el-fondo-blanco-131299337.jpg" alt=""></a>
+          <h3 class="h32"></h3>
+          <p class="p2"></p>
+        </div>
+        <div class="card3">
+          <a href="#" class="img3"><img src="https://img.freepik.com/vector-gratis/delicioso-arreglo-barras-chocolate-rotas_23-2149396277.jpg?w=2000" alt=""></a>
+          <h3 class="h33"></h3>
+          <p class="p3"></p>
+        </div>
+        <div class="card4">
+          <a href="#" class="img4"><img src="https://www.argentina.gridohelado.com/wp-content/uploads/2019/03/PicoDulce.jpg" alt=""></a>
+          <h3 class="h34"></h3>
+          <p class="p4"></p>
+        </div>
+        <div class="card5">
+          <img src="" alt="">
+          <h3 class="h35"></h3>
+          <p class="p5"></p>
+        </div>
+        <div class="card6">
+          <img src="" alt="">
+          <h3 class="h36"></h3>
+          <p class="p6"></p>
+        </div>
+        <div class="card7">
+          <img src="" alt="">
+          <h3 class="h37"></h3>
+          <p class="p7"></p>
+        </div>
+        <div class="card8">
+          <img src="" alt="">
+          <h3 class="h38"></h3>
+          <p class="p8"></p>
+        </div>
+      </nav>
+    <script src="/lucawolffarfinal2.0.js"></script>
+</body>
+</html>
